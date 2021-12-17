@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Punto Banco</title>
+        <link rel="stylesheet" href="/puntobanco.css">
+        <style>
+           /* @import url('http://fonts.cdnfonts.com/css/casino');*/
+</style>
+
+        <script type="module" src="/puntobanco.js"></script>
+    </head>
+    <body>
+        <header> 
+            <span>Punto Banco</span>
+        </header>
+        <div class="gameCarpet">
+            <span class="titelspan">Punto</span>
+            <div class="Punto tableside">
+                <div class="cardslot" id="pcs1"></div>
+                <div class="cardslot" id="pcs2"></div>
+                <div class="cardslot" id="pcs3"></div>
+            </div>
+            <span class="titelspan">Banco</span>
+            <div class="Banco tableside">
+                <div class="cardslot" id="bcs1"></div>
+                <div class="cardslot" id="bcs2"></div>
+                <div class="cardslot" id="bcs3"></div>
+            </div>
+        </div>
+        <footer class="controlPanel">
+            <span id="wallet"></span>
+            <input class="btn" id="deal" type="button" value="Deal">
+            <div class="bets">
+                <input type="radio" class="betchoice" name="bet" id="Punto" value="Punto" checked>
+                <label for="Punto">Punto</label>
+                <input type="radio" class="betchoice" name="bet" id="Banco" value="Banco">
+                <label for="Banco">Banco</label>
+                <input type="radio" class="betchoice" name="bet" id="Equality" value="Equality">
+                <label for="Equality">Equality</label>
+            </div>
+<input type="text" name="BetAmount" placeholder="place your bet" id="betamount">
+<input type="button" class="btn" id="clear" value="Clear">
+        </footer>
+    </body>
+</html>

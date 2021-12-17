@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+body {
+font-family: 'Lobster', cursive;
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    font-weight: bold;
+    background-color: gold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: red dashed 8px;
+    margin-bottom: 1px;
+}
+
+header > span {
+    font-size: 45px;
+}
+
+
+.gameCarpet{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    height: 500px;
+    background-color: green;
+    border: saddlebrown solid 20px;
+}
+
+
+
+.controlPanel {
+    background-color: rgb(56, 56, 56);
+    display: flex;
+    height: 100px;
+    width: 100%;
+    align-items: center;
+    align-content: space-around;
+    justify-content: center;
+
+}
+
+label{
+    color: gold;
+    font-size: 25px;
+}
+
+.tableside{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+}
+
+
+.cardslot{
+    height: 80px;
+    width: 55px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: red solid 1px;
+    border-radius: .5rem;
+    padding: 5px;
+}
+
+.card{
+    border: black solid 1px;
+    border-radius: .5rem;
+    background-color: white;
+    font-size: 35px;
+}
+
+.red{
+    color: red;
+}
+
+.titelspan{
+margin-left: 45%;
+margin-top: 30px;
+font-weight: bold;
+font-size: 30px;
+color: darkred;
+text-shadow: 2px rgb(56, 56, 56);
+}
+
+#wallet{
+    margin-right: 40px;
+    font-size: 40px;
+    color: goldenrod;
+}
+
+.bets{
+    margin-right: 40px;
+    margin-left: 20px;
+}
+
+.btn{
+    font: inherit;
+    padding: 20px;
+    font-size: 30px;
+    font-weight: bolder;
+    border-radius: .5rem;
+    border : dashed red 3px;
+    box-shadow : red 5px;
+    background-color: gold;
+    
+}
+
+#clear {
+    margin-left: 10px;
+}
